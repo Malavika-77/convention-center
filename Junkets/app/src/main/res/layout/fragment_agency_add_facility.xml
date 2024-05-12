@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/yellow"
+    tools:context=".TravelAgency.Agency_add_facility">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginTop="30dp"
+        android:text="ADD FACILITY"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="text"
+        android:textColorHint="@color/red"
+        android:layout_marginTop="50dp"
+        android:hint="Vehice"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/agency_vehicle_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:gravity="top"
+        android:inputType="number"
+        android:textColorHint="@color/red"
+        android:layout_marginTop="10dp"
+        android:hint="No of Seats"
+        android:background="@color/white"
+        android:maxLength="2"
+        android:padding="10dp"
+        android:id="@+id/agency_vehicle_seats"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="number"
+        android:textColorHint="@color/red"
+        android:layout_marginTop="10dp"
+        android:hint="Rate per km"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/agency_vehicle_rate"
+        android:maxLength="3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:id="@+id/agency_vehicle_button"
+        android:text="ADD"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

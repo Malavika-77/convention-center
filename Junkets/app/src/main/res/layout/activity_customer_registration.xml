@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Customer.Customer_registration">
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginTop="30dp"
+        android:text="USER REGISTRATION"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="text"
+        android:textColorHint="@color/red"
+        android:layout_marginTop="50dp"
+        android:hint="Name"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:id="@+id/customer_reg_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColorHint="@color/red"
+        android:layout_marginTop="30dp"
+        android:hint="Age"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:inputType="number"
+        android:maxLength="2"
+        android:id="@+id/customer_reg_age"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColorHint="@color/red"
+        android:layout_marginTop="30dp"
+        android:hint="Aadhaar No"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:inputType="number"
+        android:maxLength="12"
+        android:id="@+id/customer_reg_aadhaar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColorHint="@color/red"
+        android:layout_marginTop="30dp"
+        android:hint="Address"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/customer_reg_aadress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColorHint="@color/red"
+        android:layout_marginTop="30dp"
+        android:hint="Contact No"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:id="@+id/customer_reg_phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColorHint="@color/red"
+        android:layout_marginTop="30dp"
+        android:hint="Email"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/customer_reg_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColorHint="@color/red"
+        android:layout_marginTop="30dp"
+        android:hint="Password"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/customer_reg_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:id="@+id/customer_reg_button"
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

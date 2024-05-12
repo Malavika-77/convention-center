@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    android:gravity="center"
+    tools:context=".Hotel.Hotel_add_facilities">
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginTop="30dp"
+        android:text="ADD PACKAGE"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="text"
+        android:textColorHint="@color/red"
+        android:layout_marginTop="50dp"
+        android:hint="Package Name"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/hotel_package_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:minLines="4"
+        android:maxLines="6"
+        android:gravity="top"
+        android:inputType="textCapSentences|textNoSuggestions|textMultiLine"
+        android:textColorHint="@color/red"
+        android:layout_marginTop="10dp"
+        android:hint="Package Description"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/hotel_package_desc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="text"
+        android:textColorHint="@color/red"
+        android:layout_marginTop="10dp"
+        android:hint="Package Rate"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/hotel_package_rate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:id="@+id/hotel_package_button"
+        android:text="ADD"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

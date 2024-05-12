@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/admin_approve_hotel"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Approve Hotel" />
+        <item
+            android:id="@+id/admin_approve_agency"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Approve Agency" />
+        <item
+            android:id="@+id/admin_add_facility"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Add Facility" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/admin_view_customers"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Customers" />
+            <item
+                android:id="@+id/admin_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

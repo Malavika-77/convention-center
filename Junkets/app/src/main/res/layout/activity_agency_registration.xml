@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".TravelAgency.Agency_registration">
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginTop="30dp"
+        android:text="TRAVEL AGENCY REGISTRATION"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="text"
+        android:textColorHint="@color/red"
+        android:layout_marginTop="50dp"
+        android:hint="Agency Name"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:id="@+id/agency_reg_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="text"
+        android:textColorHint="@color/red"
+        android:layout_marginTop="50dp"
+        android:hint="Licence Id"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:id="@+id/agency_reg_lice"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textColorHint="@color/red"
+        android:layout_marginTop="30dp"
+        android:hint="Place"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/agency_reg_place"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textColorHint="@color/red"
+        android:layout_marginTop="30dp"
+        android:hint="Contact No"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:id="@+id/agency_reg_phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColorHint="@color/red"
+        android:layout_marginTop="30dp"
+        android:hint="Email"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/agency_reg_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColorHint="@color/red"
+        android:layout_marginTop="30dp"
+        android:hint="Password"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/agency_reg_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:id="@+id/agency_reg_button"
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
